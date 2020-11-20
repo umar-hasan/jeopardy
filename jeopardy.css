@@ -1,0 +1,30 @@
+#jeopardy {
+  font-family: 'Copse', serif; 
+  background-color: blue;
+  color: white;
+  width: 90%;
+  height: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+thead {
+  font-family: Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+td {
+  padding: 10px;
+  height: 9rem;
+  width: 9rem;
+  border: 2px solid black;
+}
+
+#start {
+  display: block;
+  margin: 20px auto;
+}
