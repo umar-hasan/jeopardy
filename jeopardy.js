@@ -49,7 +49,7 @@ function getCategoryIds() {
  */
 
 function getCategory(catId) {
-    return axios.get("http://jservice.io/api/category", {params: {id: catId}})
+    return axios.get("https://jservice.io/api/category", {params: {id: catId}})
 }
 
 /** Fill the HTML table#jeopardy with the categories & cells for questions.
